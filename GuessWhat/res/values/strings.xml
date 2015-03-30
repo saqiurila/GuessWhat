@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GuessWhat</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="coin">1000</string>
+    <string name="description">meow</string>
+    <string name="level">Song</string>
+    <string name="youBeat">您已击败</string>
+    <string name="answerIsRight">答案正确</string>
+    <string name="award">奖励：</string>
+    <string name="multipleSign">X</string>
+
+</resources>

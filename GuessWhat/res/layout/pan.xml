@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:layout_marginTop="30dp"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/catagory_bar"
+            android:contentDescription="@string/description" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:text="@string/level" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="260dp"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/pan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/cd"
+            android:contentDescription="@string/description" />
+        
+		<ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/game_disc_light"
+            android:contentDescription="@string/description" />
+		
+        <ImageButton
+            android:id="@+id/playBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/play_button"
+            android:contentDescription="@string/description" />
+
+        <ImageView
+            android:id="@+id/stick"
+            android:layout_width="50dp"
+            android:layout_height="140dp"
+            android:layout_gravity="end"
+            android:src="@drawable/stick"
+            android:contentDescription="@string/description" />
+
+    </FrameLayout>
+
+</LinearLayout>

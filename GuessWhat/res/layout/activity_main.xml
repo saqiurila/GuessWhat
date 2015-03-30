@@ -1,0 +1,26 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sqrl.guesswhat.ui.MainActivity" >
+
+    <LinearLayout 
+        android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:background="@drawable/bg"
+    	android:layout_gravity="center_horizontal"
+    	android:orientation="vertical">
+    	
+        <include layout="@layout/title_bar"/>
+        <include layout="@layout/pan"/>
+        <include layout="@layout/answer_select"/>
+    </LinearLayout>
+    
+    <!-- 浮动按钮界面 -->	
+    <include layout="@layout/float_buttons"/>
+    
+    <!-- 答案正确界面 -->	
+    <include layout="@layout/answer_right"/>
+
+
+</FrameLayout>
